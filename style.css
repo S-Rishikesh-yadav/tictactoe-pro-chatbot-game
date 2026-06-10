@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.app {
+    text-align: center;
+    backdrop-filter: blur(15px);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.modes button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.modes button:hover {
+    transform: scale(1.1);
+}
+
+.chatbox {
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+    width: 320px;
+    height: 120px;
+    margin: 10px auto;
+    border-radius: 15px;
+    overflow-y: auto;
+    backdrop-filter: blur(10px);
+}
+
+.bot { color: #00ffea; text-align: left; }
+.user { color: #fff; text-align: right; }
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    gap: 10px;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.8);
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cell:hover {
+    transform: scale(1.1);
+    background: white;
+}
+
+.restart {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #00ffea;
+    cursor: pointer;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>🎮 Tic Tac Toe Pro</h1>
+
+    <!-- Mode Selection -->
+    <div class="modes">
+        <button onclick="setMode('bot')">🤖 Vs Computer</button>
+        <button onclick="setMode('player')">👥 2 Players</button>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="chatbox" id="chatbox">
+        <p class="bot">Bot: Choose a mode to start 👇</p>
+    </div>
+
+    <!-- Game Board -->
+    <div class="board" id="board"></div>
+
+    <button class="restart" onclick="restartGame()">Restart 🔄</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
