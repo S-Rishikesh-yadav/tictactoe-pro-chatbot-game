@@ -4,12 +4,12 @@ Developed a tictactoe pro game using basic web essentials.
 
 🎮 [Play the Game Live](https://s-rishikesh-yadav.github.io/tictactoe-pro-chatbot-game/)
 
-A fun and interactive Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript**. The game features an intelligent chatbot assistant, smooth gameplay, and a responsive design for an engaging user experience.
+A fun and interactive tictactoe game built using **HTML**, **CSS**, and **JavaScript**. The game features an intelligent chatbot assistant, smooth gameplay, and a responsive design for an engaging user experience.
 ---
 
 ## Features
 
-* Classic Tic Tac Toe gameplay
+* Classic tictactoe gameplay
 * Interactive chatbot assistance
 * Responsive user interface
 * Real-time game updates
